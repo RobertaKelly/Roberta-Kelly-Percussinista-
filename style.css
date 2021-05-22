@@ -253,40 +253,13 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-    border-radius: 2px;
+    border-radius: 2px; 
 }
-.skills .content .col-right .bar .html:before{
-    width: 73%;
-    background: rgb(255, 94, 0);    
+.skills .content .colums.col-left.reveal.active .card-img img{
+ width: 40%;
+ border-radius: 10px;
 }
-.skills .content .col-right .bar .job:before{
-    width: 85%;
-    background: rgb(255, 0, 179);    
-}
-.skills .content .col-right .bar .css:before{
-    width: 60%;
-    background: rgb(0, 255, 42);    
-}
-.skills .content .col-right .bar .js:before{
-    width: 77%;
-    background: rgb(255, 230, 0);    
-}
-.skills .content .col-right .bar .git:before{
-    width: 77%;
-    background: rgb(105, 105, 105);    
-}
-.skills .content .col-right .bar .speak:before{
-    width: 83%;
-    background: rgb(19, 240, 248);    
-}
-.skills .content .col-right .bar .creat:before{
-    width: 95%;
-    background: rgb(157, 3, 218);    
-}
-.skills .content .col-right .bar .organization:before{
-    width: 70%;
-    background: rgb(7, 97, 233);    
-}
+
 .formation .content{
     display: flex;
     justify-content: center;
