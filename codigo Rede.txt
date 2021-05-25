@@ -1,0 +1,18 @@
+/*function DeletePost(post) {
+        const collection = firebase.firestore().collection("deletePosts")
+        collection.doc(post).get().then(doc => {doc.delete().then(response => returnUserPosts())
+        })
+    }*/
+         /*'<button id="delete-' + response.id + '">Excluir</button>'
+         idPost.querySelector(`#delete-${response.id}`).addEventListener("click", () => { 
+           console.log(response.id)
+      })}*/
+
+
+
+
+
+
+/*'<button id="delete-' + response.id + '">Excluir</button>'
+         idPost.querySelector(`#delete-${response.id}`).addEventListener("click", () => { 
+           console.log(response.id) 

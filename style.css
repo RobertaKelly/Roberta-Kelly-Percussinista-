@@ -214,50 +214,21 @@ body{
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
     color: #fff;
+    text-align: center;
 }
 .skills .content .col-left{
     position: relative;
     width: 46%;
+    text-align: center;
 }
-.skills .content .col-right{
-    position: relative;
-    width: 46%;
-}
-.skills .content .col-right .bar{
-    margin-bottom: 15px;
-    padding: 10px;
-}
-.skills .content .col-right .bar .info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 5px;
-}
-.skills .content .col-right .bar .info span{
-    font-size: 18px;
-    font-weight: 500;
-}
-.skills .content .col-right .bar .line{
-    position: relative;
-    width: 100%;
-    height: 15px;
-    background: #ccc;
-    border-radius: 2px;
-}
-.skills .content .col-right .bar .line:before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 2px; 
-}
-.skills .content .colums.col-left.reveal.active .card-img img{
+
+.skills .content .card-img img{
  width: 40%;
  border-radius: 10px;
+ align-items: center;
 }
 
 .formation .content{
