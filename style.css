@@ -211,25 +211,44 @@ body{
     
 }
 .skills .content{
-    position: relative;
+   /* position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    color: #fff;
-    text-align: center;
-}
-.skills .content .col-left{
+    text-align: center;*/
+    width: 100%;
     position: relative;
-    width: 46%;
-    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skills .content .reveal{
+      text-align: center;
+      font-size: 20px;
+  }
+.skills .content .card{
+    width: 400px;
+    margin: 15px;
 }
 
 .skills .content .card-img img{
- width: 40%;
+ width: 35%;
  border-radius: 10px;
  align-items: center;
+/* display:flex;*/
+ justify-content: space-around;
+ max-inline-size: min-content;
 }
+
+.skills .content .card-img .iframe{
+    border-radius: 10px;
+}
+
 
 .formation .content{
     display: flex;
@@ -284,7 +303,7 @@ body{
     margin-top: 20px;
 }
 .work .content .card{
-    width: 340px;
+    width: 400px;
     margin: 15px;
 }
 .work .content .card .info-text{
