@@ -227,9 +227,10 @@ body{
     margin-top: 20px;
 }
 
-.skills .content .reveal{
+.skills .content .reveal {
       text-align: center;
       font-size: 20px;
+     /* width: 30px;*/
   }
 .skills .content .card{
     width: 400px;
@@ -248,7 +249,9 @@ body{
 .skills .content .card-img .iframe{
     border-radius: 10px;
 }
-
+.skills .content .reveal .image {
+    width: 40px;
+}
 
 .formation .content{
     display: flex;
