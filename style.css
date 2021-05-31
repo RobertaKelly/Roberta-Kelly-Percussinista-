@@ -220,7 +220,7 @@ body{
     width: 100%;
     position: relative;
     color: #fff;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -240,7 +240,7 @@ body{
  width: 35%;
  border-radius: 10px;
  align-items: center;
-/* display:flex;*/
+ /*display:flex;*/
  justify-content: space-around;
  max-inline-size: min-content;
 }
