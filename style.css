@@ -100,9 +100,6 @@ header{
     align-items: center;
     transition: 0.5s ease;
 }
-.embed{
-    border-radius: 10px;
-}
 
 .image {
     width: 15%;
@@ -137,6 +134,10 @@ header .sticky .navigation a:hover{
 }
 body{
     min-height: 110vh;
+}
+
+.embed .video{
+    border-radius: 10px;
 }
 .title{
     width: 100%;
