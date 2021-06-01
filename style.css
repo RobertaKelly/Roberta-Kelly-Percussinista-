@@ -100,6 +100,10 @@ header{
     align-items: center;
     transition: 0.5s ease;
 }
+.embed{
+    border-radius: 10px;
+}
+
 .image {
     width: 15%;
     border-radius: 10px;
